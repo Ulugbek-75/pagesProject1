@@ -9,5 +9,5 @@ class HomePageView(TemplateView):
 class AboutPageView(TemplateView):
     template_name = 'about.html'
 
-class BasePageView(TemplateView):
-    template_name = 'base.html'
+# class BasePageView(TemplateView):
+#     template_name = 'base.html'
